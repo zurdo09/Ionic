@@ -1,0 +1,60 @@
+/* Empty. Add your own CSS if you like */
+.back{
+    width: 10px;
+    height: 20px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.transparente{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.cart{
+    width: 25px;
+    height: 20px;
+    margin-top: 6px;
+}
+
+.coffe-prev{
+    width: 90px;
+    height: 90px;
+    margin-left: -38px;
+}
+
+.cafe{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.stars4{
+    width: 155px;
+    margin: 0em 28%;
+}
+
+ion-content{
+    background-color: black;
+}
+
+.startext{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.images{
+    width: 25px;
+    height: 25px;
+}
+
+p{
+    color: white;
+}
+
+.interval{
+    background-color: darkgray;
+    width: 240px;
+}
