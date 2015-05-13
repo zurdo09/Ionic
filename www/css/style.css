@@ -1,4 +1,12 @@
 /* Empty. Add your own CSS if you like */
+ion-content {
+background: url(-gallery-2-2.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
 .back{
     width: 10px;
     height: 20px;
@@ -20,7 +28,7 @@
 .coffe-prev{
     width: 90px;
     height: 90px;
-    margin-left: -38px;
+    margin-left: -30px;
 }
 
 .cafe{
@@ -33,10 +41,6 @@
 .stars4{
     width: 155px;
     margin: 0em 28%;
-}
-
-ion-content{
-    background-color: black;
 }
 
 .startext{
@@ -55,6 +59,53 @@ p{
 }
 
 .interval{
-    background-color: darkgray;
+    border-color: #d3d4d5;
     width: 240px;
+    height: 0.5;
 }
+
+.cuadro-orden{
+    width: 500x;
+    height: 120px;
+    background: #191918;
+    /*margin-top: -6.6px;*/
+}
+
+/*hr{
+    border-color: #414042;
+}*/
+
+.button-order{
+    width: 60px;
+    height: 60px;
+    margin-left: 170px;
+    margin-top: -30px;
+}
+
+.order{
+    text-align: center;
+    margin-top: -45px;
+}
+
+.cuadro-open{
+    width: 500x;
+    height: 90px;
+    background: #1d1d1d;
+}
+
+.cuadro-friends{
+    width: 500x;
+    height: 200px;
+    background: #191918;
+}
+
+.cuadro-reviews{
+    width: 500px;
+    height: 400px;
+    background-color: #1d1d1d;
+}
+
+.final{
+    background-color: #1d1d1d;
+}
+
