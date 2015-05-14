@@ -20,63 +20,10 @@
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
   </head>
-  <body ng-app="starter" class="bo">
 
-    <ion-pane>
-      <ion-content>
-          <div class="row">
-              <div class="bar bar-header transparente">
-                  <div class="col col-90">
-                      <img src="img/Kaffe-img/-_back.png" class="back">
-                  </div>
-                  <div class="col col-10">
-                      <img src="img/Kaffe-img/-_cart.png" class="cart">
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-            <div class="col col-47"></div>
-            <div class="col col-10">
-                  <img src="img/Kaffe-img/-_prev-coffee%201.png" class="coffe-prev">
-            </div>
-            <div class="col col-46"></div>
-          </div>
-          <div>
-              <p class="cafe">Cafe Avenue</p>
-          </div>
-          <div>
-              <img src="img/Kaffe-img/-_Rating%204%20stars.png" class="stars4">
-          </div>
-          <p class="startext">0.3 mi</p>
-          <hr class="interval">
-          <div class="row row-center">
-              <div class="col">
-                  <img src="img/Kaffe-img/-_ic-wifi.png" class="images">
-              </div><p>WIFI</p>
-              <div class="col">
-                  <img src="img/Kaffe-img/-_ic-drivethru.png" class="images">
-              </div><p>Drive-Thru</p>
-              <div class="col">
-                  <img src="img/Kaffe-img/-_ic-parking.png" class="images">
-              </div><p>Parking</p>
-              <div class="col">
-                  <img src="img/Kaffe-img/-_ic-delivery.png" class="images">
-              </div><p>Delivery</p>
-          </div>
-          </br>
-          <!--<hr>-->
-          <div class="cuadro-orden">
-                  <img src="img/Kaffe-img/-_button-go-order.png" class="button-order"><p class="order">Order</p>
-          </div>
-          <!--<hr>-->
-         <div class="cuadro-open"></div>
-         <div class="cuadro-friends"></div>
-         <div class="cuadro-reviews"></div>
-         <div class="bar bar-footer final"></div>
-      </ion-content>
-    </ion-pane>
+  <body ng-app="starter">
+    <ion-nav-view></ion-nav-view>
   </body>
 </html>
-
-
