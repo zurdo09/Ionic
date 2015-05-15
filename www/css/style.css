@@ -79,7 +79,7 @@ hr{
 .button-order{
     width: 60px;
     height: 60px;
-    margin-left: 168px;
+    margin-left: 132px;
     margin-top: -30px;
 }
 
@@ -161,6 +161,7 @@ h4{
 }
 
 .image-text{
+    font-size: 10px;
     display: inline-block;
 }
 
@@ -189,4 +190,22 @@ h4{
 .estrellas{
     height: 20px;
     width: 110px;
+}
+
+.Jon-snow{
+    font-size: 17px;
+}
+
+.Jon-stars{
+    height: 17px;
+    width: 105px;
+}
+
+.text{
+    font-size: 10px;
+}
+
+.boton-menu{
+    width: 30px;
+    height: 30px;
 }
