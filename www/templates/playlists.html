@@ -1,10 +1,6 @@
 <ion-view view-title="Cafe Avenue">
       <ion-content>
-          <div class="row">
-              <div class="bar bar-header transparente">
-
-              </div>
-          </div>
+          <!--Aqui se ingreso la imagen del cafe prev-->
           <div class="row">
             <div class="col col-47"></div>
             <div class="col col-10">
@@ -20,30 +16,41 @@
           </div>
           <p class="startext">0.3 mi</p>
           <hr class="interval">
-          <div class="row row-center">
-              <div class="col col-20">
-                  <img src="img/Kaffe-img/-_ic-wifi.png" class="images"><p>WIFI</p>
+          <!--Todo lo ingresado aqui son imagenes-->
+          <div class="row">
+              <div class="col col-25"></div>
+              <div class="col col-25">
+                  <img src="img/Kaffe-img/-_ic-wifi.png" class="images"> <p class="image-text">WIFI</p>
               </div>
-              <div class="col col-33">
-                  <img src="img/Kaffe-img/-_ic-drivethru.png" class="images"><p>Drive-Thru</p>
+              <div class="col">
+                  <img src="img/Kaffe-img/-_ic-drivethru.png" class="images"> <p class="image-text">Drive-Thru</p>
               </div>
           </div>
           <div class="row row-center">
-              <div class="col col-20">
-                  <img src="img/Kaffe-img/-_ic-parking.png" class="images"><p>Parking</p>
+              <div class="col col-25"></div>
+              <div class="col col-25">
+                  <img src="img/Kaffe-img/-_ic-parking.png" class="images"> <p class="image-text">Parking</p>
               </div>
-              <div class="col col-33">
-                  <img src="img/Kaffe-img/-_ic-delivery.png" class="images"><p>Delivery</p>
+              <div class="col">
+                  <img src="img/Kaffe-img/-_ic-delivery.png" class="images"> <p class="image-text">Delivery</p>
               </div>
          </div>
           </br></br>
           <!--<hr>-->
+          <!--aqui comienzan los cuadros de la informacio-->
           <div class="cuadro-orden">
               <img src="img/Kaffe-img/-_button-go-order.png" class="button-order"><p class="order">Order</p>
               </br>
-              <p class="hora">3467 Coffee Ave.90807</p>
-              </br>
-              <p class="hora">Los Angeles, CA.</p>
+              <div class="row">
+                  <div class="col col-67">
+                      <p class="hora">3467 Coffee Ave.90807</p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col col-67">
+                      <p class="hora">Los Angeles, CA.</p>
+                  </div>
+              </div>
           </div>
           <!--<hr>-->
          <div class="cuadro-open">
@@ -57,14 +64,33 @@
              </div>
          </div>
          <div class="cuadro-friends">
-             </br>
-            <p class="hora">Friends ho had visited</p>
-            <div>
-                <img src="img/Kaffe-img/-_profile-friend 2.png" class="friend1">
-                <p>Jane Doe</p>
+            <div class="row">
+                <p class="col hora">Friends ho had visited</p>
+            </div>   
+            <div class="row">
+                <div class="col col-25">
+                    <img src="img/Kaffe-img/-_profile-friend 2.png" class="friend1">
+                    <p>Jane Doe</p>
+                </div>
+                <div class="col col-25">
+                    <img src="img/Kaffe-img/-_profile-friend small 2.png" class="friend1">
+                    <p>Arya Smith</p>
+                </div>
             </div>
         </div>
-         <div class="cuadro-reviews"></div>
-         <div class="bar bar-footer final"></div>
+         <div class="cuadro-reviews">
+             <div class="row">
+                 <div class="col">
+                     <p class="reviews">Reviews</p>
+                 </div>
+             </div>
+             <hr>
+             <div class="row">
+                 <div class="col col-25"><p>1 Review</p></div>
+                 <div class="col"><img src="img/Kaffe-img/-_Rating 4 stars.png" class="estrellas"></div>
+             </div>
+        </div>
+         <div class="bar bar-footer final">
+        </div>
       </ion-content>
 </ion-view>

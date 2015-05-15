@@ -61,7 +61,6 @@ p{
 .interval{
     border-color: #d3d4d5;
     width: 240px;
-    height: 0.5;
 }
 
 .cuadro-orden{
@@ -71,14 +70,16 @@ p{
     /*margin-top: -6.6px;*/
 }
 
-/*hr{
+hr{
     border-color: #414042;
-}*/
+    margin-top: -10px;
+    width: 480px;
+}
 
 .button-order{
     width: 60px;
     height: 60px;
-    margin-left: 140px;
+    margin-left: 168px;
     margin-top: -30px;
 }
 
@@ -153,4 +154,39 @@ h4{
 .friend1{
     width: 60px;
     height: 60px;
+}
+
+.bar .bar-dark{
+    background-color: #1d1d1d;
+}
+
+.image-text{
+    display: inline-block;
+}
+
+.reviews{
+    font-size: 17px;
+}
+
+.hr-basket{
+    border-color: #414042;
+    margin-top: 5px;
+    width: 200px; 
+}
+
+.text-basket{
+    text-align: center;
+    color: darkgray;
+    margin-bottom: 15px;
+}
+
+.button-menu{
+    width: 60px;
+    height: 60px;
+    margin-left: 320px;
+}
+
+.estrellas{
+    height: 20px;
+    width: 110px;
 }
